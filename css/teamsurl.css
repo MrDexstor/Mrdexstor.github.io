@@ -1,0 +1,85 @@
+/*Общие настройки стилиризации блока*/
+
+.click-button ,
+.nav-button ol{
+ list-style: none;
+}
+.nav-button > ul{
+ display: flex;
+ justify-content: center;
+}
+.nav-button > ul li{
+	position: relative;
+}
+
+.nav-button > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+}
+.nav-button > ul li a{
+ display: block;
+ background: ;
+ padding: 15px 30px 15px 40px;
+ text-decoration: none;
+}
+
+.table-style{
+	position: absolute;
+	left: 30%;
+	z-index: 0
+}
+
+/*Настройки кнопок подключения*/
+
+.click-button{
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	background: linear-gradient(#009147,#008542);
+	border: 0;
+	font-family: "MinecraftTen";
+	color: #fff;
+	padding: .6rem .9rem;
+	font-size: 1.4rem;
+	margin: 4px;
+	display: flex;
+	place-content: center;
+	place-items: center;
+	font-weight: 100;
+	font-style: normal;
+	text-shadow: 0 3px 0 rgba(0,0,0,.25882352941176473);
+	--border: #000;
+	--top-border: #27ce40;
+	--bottom-border: #064d2a;
+	-webkit-user-select: none;
+	user-select: none;
+	list-style: none;
+	box-shadow: 0 -3px 0 0 var(--top-border),
+				0 3px 0 0 var(--bottom-border),
+				-3px 0 0 0 #0c6e3d,
+				3px 0 0 0 #0c6e3d,
+				-2px -5px 0 0 var(--border),
+				2px -5px 0 0 var(--border),
+				-5px -2px 0 0 var(--border),
+				5px -2px 0 0 var(--border),
+				-2px 5px 0 0 var(--border),
+				2px 5px 0 0 var(--border),
+				-5px 2px 0 0 var(--border),
+				5px 2px 0 0 var(--border)}
+.button-text::selection{
+	background:none
+}
+.button-text:hover{
+	background:linear-gradient(#0a9a50,#0a8f4c)
+}
+.button-text:active{
+	background:#008943;
+	--top-border: #064d2a;
+	--bottom-border: #27ce40
+}
+
+.nav-button ul{
+	list-style: none
+}
