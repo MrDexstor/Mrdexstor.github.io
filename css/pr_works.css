@@ -83,3 +83,11 @@
 .nav-style ul{
 	list-style: none
 }
+
+/*Описание положения и размеров центральной кнопки*/
+
+.file-position{
+	justify-content: center;
+	display: flex;
+	
+}
